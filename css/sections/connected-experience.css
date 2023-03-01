@@ -1,0 +1,31 @@
+.connected-experience {
+    padding-top: 96px;
+}
+.connected-experience-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.connected-experience-left {
+}
+.connected-experience-right {
+    max-width: 422px;
+
+}
+.connected-experience-title {
+    color: #A6A8AD;
+    font-size: 12px;
+    margin-bottom: 5px;
+    text-align: end;
+}
+.connected-experience-headding {
+    font-size: 28px;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+    text-align: end;
+}   
+.connected-experience-text {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: end;
+}

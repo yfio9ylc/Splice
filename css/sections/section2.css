@@ -1,0 +1,17 @@
+.section2 {
+    background-color: #0033FF;
+}
+.free-sounds {
+    padding: 11px 240px;
+    color: #FFFFFF;
+}
+.info {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    justify-content: center;
+}
+
+.click-here {
+    margin-left: 54px;
+}
