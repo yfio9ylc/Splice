@@ -32,9 +32,8 @@
     background: #0033FF;
     border-radius: 8px;
     color: #FFFFFF;
-    padding: 5px 20px;
-    width: 159px;
-    height: 36px;
+    padding: 5px 20px 7px 20px;
+    
     transition: opacity 0.8s ease;
 }
 

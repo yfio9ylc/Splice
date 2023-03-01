@@ -1,0 +1,21 @@
+.try-splice {
+    padding-top: 120px;
+    background-image: url('../../img/try-splice/try-splice-img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.try-splice-bg-img {
+    position: relative;
+    margin-bottom: 0px;
+    color: black;
+    
+}
+
+.try-splice-bg-img-cover {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
