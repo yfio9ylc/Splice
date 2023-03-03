@@ -7,8 +7,12 @@
 
 .sounds-content {
     display: flex;
-    justify-content: space-between;
+    gap: 83px;
     align-items: center;
+}
+
+.sounds-content img  {
+    max-width: 100%;
 }
 
 .sounds-content-left {
