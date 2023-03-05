@@ -3,14 +3,15 @@
 }
 .connected-experience-content {
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 103px;
 }
-.connected-experience-left {
-
-}
 .connected-experience-right {
-    max-width: 422px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    max-width: 420px;
 
 }
 .connected-experience-title {

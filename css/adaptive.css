@@ -1,3 +1,138 @@
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 990px) {
 
+    .container.sounds {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header-nav ul {
+        display: none;
+
+    }
+
+    .header-row-left {
+        display: flex;
+       
+    }
+
+    .section2 {
+        
+    }
+
+    .sounds-content {
+        display: flex;
+        row-gap: 40px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .sounds-content-left {
+        display: block;
+    }
+
+    .sounds-content-right img {
+        width: 100%;
+        
+    }
+
+    .sounds-content img  {
+        max-width: 100%;
+        
+    }
+
+    .connected-experience-content {
+        display: flex;
+        row-gap: 40px;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+
+    .connected-experience-right {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        max-width: 420px
+    }
+
+    .connected-experience-text {
+        font-size: 16px;
+        line-height: 24px;
+        text-align: left;
+    }
+
+    .gears-content {
+        display: flex;
+        row-gap: 40px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .technology-content {
+        display: flex;
+        row-gap: 40px;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+
+    .technology-right {
+        max-width: 440px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .technology-text {
+        text-align: left;
+    }
+
+    .creators-flex {
+        display: flex;
+        flex-direction: column;
+        column-gap: 10px;
+    }
+
+    .creators-img {
+        width: 100%;
+    }
+
+    .creators-box {
+        display: flex;
+        height: 100%;
+        flex-direction: row;
+        gap: 30px;
+        padding: 32px;
+        align-items: center;
+        border-radius: 8px;
+        background-color: #f8f8f8;
+    }
+
+    .footer-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 12px;
+    }
+
+    .nav-button {
+        display: block;
+        /* padding: 16px 6px 16px 20px */
+    }
+
+    /* .header-nav.open .nav-list {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+
+        background-color: #121214;
+        z-index: 1;
+
+        padding: 0 18px;
+        display: flex;
+
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: flex-start;
+
+    } */
 }

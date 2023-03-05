@@ -22,6 +22,8 @@
     <link rel="stylesheet" href="./css/sections/feedback.css">
     <link rel="stylesheet" href="./css/sections/try-splice.css">
     <link rel="stylesheet" href="./css/sections/footer.css">
+    <link rel="stylesheet" href="./css/adaptive.css">
+
     
     <!-- fonts -->
     <link rel="stylesheet" href="./css/fonts/Roboto/stylesheet.css">
@@ -34,8 +36,8 @@
             <div class="header-row">
                 <div class="header-row-left">
                     <div class="header-logo"><img src="./img/header-logo.svg" alt="logo"></div>
-                    <nav class="header-nav">
-                        <ul>
+                    <nav class="header-nav open">
+                        <ul class="nav-list">
                             <li><a href="#">Sounds</a></li>
                             <li><a href="#">Skills</a></li>
                             <li><a href="#">Plugins</a></li>
@@ -44,6 +46,9 @@
                             <li><a href="#">Blog</a></li>
                             <li><a href="#">Pricing</a></li>
                         </ul>
+                        <button class="nav-button">
+                            <img src="./img/icons/burger-menu.svg" alt="Nav button">
+                        </button>
                     </nav>
                 </div>    
                 <div class="header-row-right">
@@ -67,9 +72,9 @@
         </section>
         <!-- section3 -->
         <section class="section3">
-            <div class="container container-large">
+            <div class="container">
                 <div class="section3-content">
-                    <h1 class="section3-heading">Step into the producer's playground</h1>
+                    <h1 class="section3-heading">Step into the <br> producer's <br> playground</h1>
                     <p class="section3-text">Explore the world’s best sample library and an unmatched marketplace of plugins and DAWs.</p>
                     <button class="section3-button">Try free</button>
                 </div>                                 
@@ -77,7 +82,7 @@
         </section>
         <!-- sounds -->
         <section class="sounds">
-            <div class="container container-large">
+            <div class="container">
                 <div class="sounds-content">
                     <div class="sounds-content-left">
                         <p class="sounds-title">SOUNDS</p>
@@ -86,14 +91,14 @@
                         <button class="button-explore-sounds">Explore Sounds</button>
                     </div>
                     <div class="sounds-content-right">
-                        <img src="./img/sounds/sounds-img.svg" alt="Sounds">
+                        <img src="./img/sounds/sounds-img.png" alt="Sounds">
                     </div>
                 </div>               
             </div>
         </section>
         <!-- connected experience-->
         <section class="connected-experience">
-            <div class="container container-large">
+            <div class="container">
                 <div class="connected-experience-content">
                     <div class="connected-experience-left">
                         <img src="./img/connected-experience/connected-exp-img.svg" alt="">
@@ -109,13 +114,14 @@
                             Preview samples in your track’s key and tempo, drag and drop sounds into your DAW, 
                             and organize your favorite samples, MIDI and presets in one place.
                         </p>
-                    </div>
-                </div>  
+                    </div>                    
+                </div>                                                     
             </div>                    
         </section>
+        <hr>
         <!-- gear-->
         <section class="gear">
-            <div class="container container-large">
+            <div class="container">
                 <div class="gears-content">
                     <div class="gear-content-left">
                         <p class="gear-title">GEAR</p>
@@ -131,7 +137,7 @@
         </section>
         <!-- technology-->
         <section class="technology">
-            <div class="container container-large">
+            <div class="container ">
                 <div class="technology-content">
                     <div class="technology-left">
                         <img src="./img/technology/technology-img.svg" alt="">
@@ -149,7 +155,7 @@
                         </p>                        
                         <button class="technology-button">Discover CoSo</button>                                         
                     </div>
-                </div>  
+                </div> 
             </div>    
         </section>
         <!-- feedback -->
@@ -233,56 +239,56 @@
                         <a href="#" class="footer-link">Collaborating with Baewatch</a>
                     </div>
                 </div>                
-                <div class="footer-grid-box">
-                    <h3 class="footer-headding">
-                        Community
-                    </h3>
-                    <a href="#" class="footer-link">Ableton Live Projects</a>
-                    <a href="#" class="footer-link">FL Studio Projects</a>
-                    <a href="#" class="footer-link">Logic Pro X Projects</a>
-                    <a href="#" class="footer-link">Garageband Projects</a>
-                    <a href="#" class="footer-link">Remix Contests</a>
-                    <a href="#" class="footer-link">Tiesto's Secrets</a>
+                    <div class="footer-grid-box">
+                        <h3 class="footer-headding">
+                            Community
+                        </h3>
+                        <a href="#" class="footer-link">Ableton Live Projects</a>
+                        <a href="#" class="footer-link">FL Studio Projects</a>
+                        <a href="#" class="footer-link">Logic Pro X Projects</a>
+                        <a href="#" class="footer-link">Garageband Projects</a>
+                        <a href="#" class="footer-link">Remix Contests</a>
+                        <a href="#" class="footer-link">Tiesto's Secrets</a>
+                    </div>
+                    <div class="footer-grid-box">
+                        <h3 class="footer-headding">
+                            Sounds
+                        </h3>
+                        <a href="#" class="footer-link">Features</a>
+                        <a href="#" class="footer-link">Catalog</a>
+                        <a href="#" class="footer-link">How Jauz Uses Sounds</a>
+                        <a href="#" class="footer-link">deadmau5's Chimaera</a>
+                        <a href="#" class="footer-link">KSHMR Vol. 2</a>                 
+                    </div>
+                    <div class="footer-grid-box">
+                        <h3 class="footer-headding">
+                            Plugins
+                        </h3>
+                        <a href="#" class="footer-link">Top VSTs</a>
+                        <a href="#" class="footer-link">Serum</a>
+                        <a href="#" class="footer-link">Rent to Own</a>
+                        <a href="#" class="footer-link">Free Plugins</a>
+                        <a href="#" class="footer-link">Top Manufacturers</a>                 
+                    </div>
+                    <div class="footer-grid-box">
+                        <h3 class="footer-headding">
+                            Beatmaker
+                        </h3>
+                        <a href="#" class="footer-link">Create Your Own Beat</a>
+                        <a href="#" class="footer-link">Wakapella</a>
+                        <a href="#" class="footer-link">Just Blaze</a>                          
+                    </div>
+                    <div class="footer-grid-box">
+                        <h3 class="footer-headding">
+                            Blog
+                        </h3>
+                        <a href="#" class="footer-link">Latest Posts</a>
+                        <a href="#" class="footer-link">Using Soundtoys Decapitator</a>
+                        <a href="#" class="footer-link">Mastering 101</a>                          
+                        <a href="#" class="footer-link">Producing Future Beats</a>                          
+                        <a href="#" class="footer-link">Belonging @ Splice</a>                          
+                    </div>
                 </div>
-                <div class="footer-grid-box">
-                    <h3 class="footer-headding">
-                        Sounds
-                    </h3>
-                    <a href="#" class="footer-link">Features</a>
-                    <a href="#" class="footer-link">Catalog</a>
-                    <a href="#" class="footer-link">How Jauz Uses Sounds</a>
-                    <a href="#" class="footer-link">deadmau5's Chimaera</a>
-                    <a href="#" class="footer-link">KSHMR Vol. 2</a>                 
-                </div>
-                <div class="footer-grid-box">
-                    <h3 class="footer-headding">
-                        Plugins
-                    </h3>
-                    <a href="#" class="footer-link">Top VSTs</a>
-                    <a href="#" class="footer-link">Serum</a>
-                    <a href="#" class="footer-link">Rent to Own</a>
-                    <a href="#" class="footer-link">Free Plugins</a>
-                    <a href="#" class="footer-link">Top Manufacturers</a>                 
-                </div>
-                <div class="footer-grid-box">
-                    <h3 class="footer-headding">
-                        Beatmaker
-                    </h3>
-                    <a href="#" class="footer-link">Create Your Own Beat</a>
-                    <a href="#" class="footer-link">Wakapella</a>
-                    <a href="#" class="footer-link">Just Blaze</a>                          
-                </div>
-                <div class="footer-grid-box">
-                    <h3 class="footer-headding">
-                        Blog
-                    </h3>
-                    <a href="#" class="footer-link">Latest Posts</a>
-                    <a href="#" class="footer-link">Using Soundtoys Decapitator</a>
-                    <a href="#" class="footer-link">Mastering 101</a>                          
-                    <a href="#" class="footer-link">Producing Future Beats</a>                          
-                    <a href="#" class="footer-link">Belonging @ Splice</a>                          
-                </div>
-            </div>
             <div class="footer-bottom">
                 <div class="copyright">
                     © 2022 Splice.com All Rights Reserved

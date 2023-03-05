@@ -11,20 +11,17 @@ body {
 }
 
 /* grid */
-.container {
-   
-    padding-left: 48px;
-    padding-right: 48px;
-    margin-left: auto;
-    margin-right: auto;
+.container {  
+    padding: 0 48px;
+    width: 100%;
+    max-width: 1296px;
+    margin: 0 auto;
 }
 
 .container-large {
     width: 100%;
-    max-width: 75rem;
-    width: 1096px;
-    margin-left: auto;
-    margin-right: auto;
+    
+    margin: 0 auto;
 }
 
 .container-sec2 {
@@ -39,4 +36,10 @@ body {
     width: 1240px;
     box-sizing: border-box;
     padding: 0 20px;
+}
+.hr {
+    border: none; /* Убираем границу */
+    background-color: #fff; /* Цвет линии */
+    color: #fff; /* Цвет линии для IE6-7 */
+    height: 2px; /* Толщина линии */
 }

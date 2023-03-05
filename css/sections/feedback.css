@@ -2,6 +2,7 @@
     padding-top: 120px;
     padding-bottom: 120px;
     display: flex;
+    justify-content: center;
 }
 .feedback-headding {
     font-size: 28px;
@@ -44,11 +45,4 @@
 .name {
     color: #767676;
     font-size: 14px;
-}
-
-.Andrew {
-}
-.KSHMR {
-}
-.Kesha {
 }
